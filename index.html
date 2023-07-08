@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive website</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- adding boxicon icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- adding custom css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- website header section -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/Logo.png" alt="logo">
+            </a>
+
+            <div class="right">
+                <nav class="nav-dekstop">
+                    <a href="#hero">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact Us</a>
+                    <img src="img/moon.png" alt="moon" id="theme-dekstop">
+                </nav>
+                
+            </div>
+
+            <div class="hamb">
+                <i class='bx bx-menu' id="icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- mobile navigation -->
+    <nav class="nav-mobile" id="nav-mobile">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- hero markup -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1 class="title">Earth</h1>
+            <h2 class="subtitle">Endless potential</h2>
+            <a href="#services" class="btn-fill">Explore</a>
+        </div>
+    </section>
+
+    <!-- service section markup -->
+    <section class="services" id="services">
+        <div class="container">
+            <!-- Card-1 -->
+            <div class="card">
+                <img src="img/Service-1-min.jpg" alt="">
+                <div class="content">
+                    <h3>Web Design</h3>
+                    <p>Custom web design for small businesses, we help you capture new audiences and increase your sales.</p>
+                </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="card">
+                <img src="img/Service-2-min.jpg" alt="">
+                <div class="content">
+                    <h3>Graphics Design</h3>
+                    <p>Logos, merchanadise and more. Anyone can create nice graphics. We think it's better to create memorable ones.</p>
+                </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="card">
+                <img src="img/Service-3-min.jpg" alt="">
+                <div class="content">
+                    <h3>Content Design</h3>
+                    <p>Want to aatract people to your website? You have to have the best content in the world. That's what we do.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about us section markup -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <h3>About us</h3>
+                <p>I made it super easy to update and so that it flows perfectly. Lots of love and hundreds of hours went into making it. I hope you love it much as I do. I wish you the best of luck with your business, enjoy the adventure.</p>
+            </div>
+            <img src="img/Our-Mission.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- contact us markup -->
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <h3>Talk to us</h3>
+            <p>Have any questions? We are always open to talk about your business, new projects, creative opportunities and how we can help you</p>
+            <a href="" class="btn-fill">Get in touch</a>
+        </div>
+    </section>
+
+    <!-- footer markup -->
+    <footer>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/Logo.png" alt="logo">
+            </a>
+            <div class="end">
+                <p>&copy; 2023 Earth, coded by Vinit. All right reserved</p>
+
+                <a href="#hero" class="to-top">
+                    <i class='bx bx-chevron-up'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- adding custom js file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
